@@ -180,7 +180,7 @@ def build_full_html() -> str:
 <body>
 <h1>Ayup.cc Donos Archive</h1>
 <p class="subtitle">Updated daily • Last update: {ts}</p>
-<p class="subtitle">Created by Ja77_Man on twitch</p>
+<p class="subtitle">Created by <a href="https://www.twitch.tv/ja77_man/">Ja77_Man</a></p>
 """
 
     parts = [head]
