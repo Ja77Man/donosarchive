@@ -165,7 +165,6 @@ def build_full_html() -> str:
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Ayup.cc Donos Archive</title>
-<meta name="description" content="Nightly snapshot of Ayup.cc donos archive." />
 {css}
 <style>
   body {{ margin: 1.25rem; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }}
@@ -179,8 +178,9 @@ def build_full_html() -> str:
 </style>
 </head>
 <body>
-<h1>Ayup.cc Donos</h1>
-<p class="subtitle">Nightly snapshot • Last generated: {ts}</p>
+<h1>Ayup.cc Donos Archive</h1>
+<p class="subtitle">Updated daily • Last update: {ts}</p>
+<p class="subtitle">Created by Ja77_Man on twitch</p>
 """
 
     parts = [head]
